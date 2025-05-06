@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Моё любимое сладкое блюдо — тирамису!');
+    res.send('Моё любимое сладкое блюдо — шоколадный эклер!');
 });
 
 app.listen(port, () => {
